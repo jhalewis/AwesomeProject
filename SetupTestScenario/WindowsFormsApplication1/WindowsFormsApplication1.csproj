@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{845DE1DB-F4E2-4D9A-9E25-80652A6EE58E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>WindowsFormsApplication1.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setup.Designer.cs">
+      <DependentUpon>Setup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setup.resx">
+      <DependentUpon>Setup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RunTests.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrepareData.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\View Results.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ap2back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainPage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step1 button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Connect to DB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step3 button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step1 button1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step1 button V2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainPage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainPage2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainPage3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step3 buttonV2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainPage4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainPage5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainPage6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainPage7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainPage8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step1 button V4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SilverBridgeLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step3 buttonV3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Step3 buttonV31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Steps image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Steps image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Steps image2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Steps image3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReportIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReportIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ball1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EmailResults.html" />
+    <None Include="Resources\Builder.png" />
+    <None Include="Resources\arrows 2.png" />
+    <None Include="Resources\arrows 1.png" />
+    <None Include="Resources\report.png" />
+    <None Include="Resources\Prepare Data.png" />
+    <None Include="Resources\NewBackground2.png" />
+    <None Include="Resources\NewBackground.png" />
+    <None Include="Resources\Abstract-Blue-Lines-PPT-Slide.jpg" />
+    <None Include="Resources\VAIO-Notebook-PPT-Backgrounds-800x600.jpg" />
+    <None Include="Resources\desenho.png" />
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

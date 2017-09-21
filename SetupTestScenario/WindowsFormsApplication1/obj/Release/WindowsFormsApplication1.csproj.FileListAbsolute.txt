@@ -1,0 +1,2 @@
+C:\Project\Intelligent Test Automation\AwesomeSetup\SetupTestScenario\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe
+C:\Project\Intelligent Test Automation\AwesomeSetup\SetupTestScenario\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.pdb

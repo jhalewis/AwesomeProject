@@ -1,0 +1,14 @@
+C:\Project\Intelligent Test Automation\AwesomeSetup\SetupTestScenario\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Project\Intelligent Test Automation\AwesomeSetup\SetupTestScenario\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Project\Intelligent Test Automation\AwesomeSetup\SetupTestScenario\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Project\Intelligent Test Automation\AwesomeSetup\SetupTestScenario\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Project\Intelligent Test Automation\AwesomeSetup\SetupTestScenario\WindowsFormsApplication1\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Project\Intelligent Test Automation\AwesomeSetup\SetupTestScenario\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.ResolveComReference.cache
+C:\Project\Intelligent Test Automation\AwesomeSetup\SetupTestScenario\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Project\Intelligent Test Automation\AwesomeSetup\SetupTestScenario\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.test.resources
+C:\Project\Intelligent Test Automation\AwesomeSetup\SetupTestScenario\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Setup.resources
+C:\Project\Intelligent Test Automation\AwesomeSetup\SetupTestScenario\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Project\Intelligent Test Automation\AwesomeSetup\SetupTestScenario\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Project\Intelligent Test Automation\AwesomeSetup\SetupTestScenario\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Project\Intelligent Test Automation\AwesomeSetup\SetupTestScenario\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Project\Intelligent Test Automation\AwesomeSetup\SetupTestScenario\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
